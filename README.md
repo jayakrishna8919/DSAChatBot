@@ -96,8 +96,8 @@ ollama pull llama3.2
 streamlit run app.py
 
 Key Functionality
-✔ Processing model output
-
+Processing model output
+----------------------
 The function:
 
 get_ollama_response(inp)
@@ -109,14 +109,15 @@ Extracts pure JSON from model output
 
 Returns Python dictionary
 
-✔ Chat memory
+Chat memory
+-----------
 st.session_state["messages"]
 
 
 Stores user and bot messages.
 
-✔ UI
-
+UI
+--
 Text area for input
 
 "Send" button
