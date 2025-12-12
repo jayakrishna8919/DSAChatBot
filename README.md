@@ -95,7 +95,7 @@ ollama pull llama3.2
 3. Run Streamlit app
 streamlit run app.py
 
-🧩 Key Functionality
+Key Functionality
 ✔ Processing model output
 
 The function:
